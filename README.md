@@ -12,3 +12,5 @@ Please refer to Michelle Michaels ERDC Special Report SR-20589 for more informat
 -emissions_driver.F: passes uns* data to the AFWA dust emission module 
 
 -module_gocart_dust_afwa.F: AFWA dust module containing uns* modified code
+
+Note: To use the WRF-Chem dust drag partition scheme, copy the .F files within each subfolder to the corresponding subfolder within the main WRF-Chem Directory and recompile.  Note that because there is a change made to the registry, you will need to do a full clean of WRF-Chem in order for the new scheme to be compiled correctly.
